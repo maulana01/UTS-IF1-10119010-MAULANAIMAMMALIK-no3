@@ -21,11 +21,47 @@ public class UTSIF110119010MAULANAIMAMMALIKNo3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        MusicGenre jimmyHendrik = new MusicGenre();
-        Rnb rnb = new Rnb();
+        Rnb blues = new Rnb();
+        blues.genreBlues("Jimmy Hendrik");
         
-        jimmyHendrik.setArtistName("Jimmy Hendrik");
-        System.out.println(jimmyHendrik.getArtistName() + " adalah musisi " + jimmyHendrik.setArtistName(rnb.genreBlues(artistName)));
+        Rnb jazz = new Rnb();
+        jazz.genreJazz("Chad Baker");
+        
+        Folk folk = new Folk();
+        folk.genreFolk("Bob Dylan");
+        
+        Rockabilly rockabilly = new Rockabilly();
+        rockabilly.genreRockabilly("Elvis Presley");
+        
+        HardRock progressiveRock = new HardRock();
+        progressiveRock.genreProgressiveRock("DreamTheater");
+        
+        HardRock psychedellic = new HardRock();
+        psychedellic.genrePsychedellicRock("The Doors");
+        
+        HardRock popRock = new HardRock();
+        popRock.genrePopRock("Kiss");
+        
+        Metal punk = new Metal();
+        punk.genrePunk("MXPX");
+        
+        Metal heavyMetal = new Metal();
+        heavyMetal.genreHeavyMetal("METALLICA");
+        
+        GrindCore grindcore = new GrindCore();
+        grindcore.genreGrindCore("Mesin Tempur");
+        
+        DeathMetal deathMetal = new DeathMetal();
+        deathMetal.genreDeathMetal("JASAD");
+        
+        DeathCoreKepiting deathCoreKepiting = new DeathCoreKepiting();
+        deathCoreKepiting.genreDeathCoreKepiting("Revenge The Fate");
+        
+        BlackMetal blackMetal = new BlackMetal();
+        blackMetal.genreBlackMetal("Behemoth");
+        
+        NewSkul newSkul = new NewSkul();
+        newSkul.genreNewSkul("HATEBREED");
     }
     
 }

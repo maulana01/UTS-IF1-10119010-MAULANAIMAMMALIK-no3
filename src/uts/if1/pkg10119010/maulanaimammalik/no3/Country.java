@@ -16,6 +16,6 @@ package uts.if1.pkg10119010.maulanaimammalik.no3;
  */
 public class Country extends MusicGenre{
     public void genreCountry(String artistName) {
-        System.out.println("Country");
+        System.out.println(artistName + " adalah musisi Country");
     }
 }

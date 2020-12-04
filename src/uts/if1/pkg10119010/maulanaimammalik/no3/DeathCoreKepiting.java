@@ -16,6 +16,6 @@ package uts.if1.pkg10119010.maulanaimammalik.no3;
  */
 public class DeathCoreKepiting extends MusicGenre{
     public void genreDeathCoreKepiting(String artistName) {
-        System.out.println("Death Core Kepiting");
+        System.out.println(artistName + " adalah musisi Death Core Kepiting");
     }
 }

@@ -16,21 +16,21 @@ package uts.if1.pkg10119010.maulanaimammalik.no3;
  */
 public class HardRock extends MusicGenre implements PopRock, ProgressiveRock, PsychedellicRock{
     public void genreHardRock(String artistName) {
-        System.out.println("Hard Rock");
+        System.out.println(artistName + " adalah musisi Hard Rock");
     }
     
     @Override
     public void genrePopRock(String artistName) {
-        System.out.println("Pop Rock");
+        System.out.println(artistName + " adalah musisi Pop Rock");
     }
     
     @Override
     public void genreProgressiveRock(String artistName) {
-        System.out.println("Progressive Rock");
+        System.out.println(artistName + " adalah musisi Progressive Rock");
     }
     
     @Override
     public void genrePsychedellicRock(String artistName) {
-        System.out.println("Psychedellic Rock");
+        System.out.println(artistName + " adalah musisi Psychedellic Rock");
     }
 }

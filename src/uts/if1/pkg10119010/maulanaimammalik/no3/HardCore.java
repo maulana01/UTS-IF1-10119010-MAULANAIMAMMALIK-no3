@@ -16,6 +16,6 @@ package uts.if1.pkg10119010.maulanaimammalik.no3;
  */
 public class HardCore extends MusicGenre{
     public void genreHardCore(String artistName) {
-        System.out.println("Hardcore");
+        System.out.println(artistName + " adalah musisi Hardcore");
     }
 }

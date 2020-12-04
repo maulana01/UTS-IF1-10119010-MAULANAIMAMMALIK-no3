@@ -16,6 +16,6 @@ package uts.if1.pkg10119010.maulanaimammalik.no3;
  */
 public class Rockabilly extends MusicGenre{
     public void genreRockabilly(String artistName) {
-        System.out.println("Rockabilly");
+        System.out.println(artistName + " adalah musisi Rockabilly");
     }
 }

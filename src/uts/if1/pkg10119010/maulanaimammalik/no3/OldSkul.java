@@ -16,6 +16,6 @@ package uts.if1.pkg10119010.maulanaimammalik.no3;
  */
 public class OldSkul extends MusicGenre{
     public void genreOldSkul(String artistName) {
-        System.out.println("Old Skul");
+        System.out.println(artistName + " adalah musisi Old Skul");
     }
 }

@@ -16,6 +16,6 @@ package uts.if1.pkg10119010.maulanaimammalik.no3;
  */
 public class Folk extends MusicGenre{
     public void genreFolk(String artistName) {
-        System.out.println("Folk");
+        System.out.println(artistName + " adalah musisi Folk");
     }
 }

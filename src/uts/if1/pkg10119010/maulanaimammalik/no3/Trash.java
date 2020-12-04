@@ -16,6 +16,6 @@ package uts.if1.pkg10119010.maulanaimammalik.no3;
  */
 public class Trash extends MusicGenre{
     public void genreTrash(String artistName) {
-        System.out.println("Trash ");
+        System.out.println(artistName + " adalah musisi Trash");
     }
 }

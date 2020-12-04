@@ -16,20 +16,20 @@ package uts.if1.pkg10119010.maulanaimammalik.no3;
  */
 public class Metal extends MusicGenre implements Punk, HeavyMetal {
     public void genreMetal(String artistName) {
-        System.out.println("Metal");
+        System.out.println(artistName + " adalah musisi Metal");
     }
     
     @Override
     public void genreHeavyMetal(String artistName) {
-        System.out.println("Heavy Metal");
+        System.out.println(artistName + " adalah musisi Heavy Metal");
     }
     
     @Override
     public void genrePunk(String artistName) {
-        System.out.println("Punk");
+        System.out.println(artistName + " adalah musisi Punk");
     }
     
     public void genreGrunge(String artistName) {
-        System.out.println("Grunge");
+        System.out.println(artistName + " adalah musisi Grunge");
     }
 }

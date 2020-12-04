@@ -16,6 +16,6 @@ package uts.if1.pkg10119010.maulanaimammalik.no3;
  */
 public class DeathMetal extends MusicGenre{
     public void genreDeathMetal(String artistName) {
-        System.out.println("Death Metal");
+        System.out.println(artistName + " adalah musisi Death Metal");
     }
 }
